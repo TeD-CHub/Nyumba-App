@@ -27,6 +27,7 @@ function App() {
   };
 
   return (
+    
     <AuthProvider>
       <div className="min-h-screen bg-gray-50">
         <Header onNavigate={navigate} currentPage={pageState.page} />
